@@ -1,0 +1,173 @@
+<Page
+    x:Class="bCustomers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:bCustomers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="1813.097" Width="2509.027">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+          Margin="0,-255,-283,0">
+        
+        <Grid Margin="10,20,10,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" HorizontalAlignment="Center" TextWrapping="Wrap"
+Text="Adventure Works Customers" VerticalAlignment="Top" FontSize="60"/>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="ID" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="Title" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="5" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="First Name" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="7" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Center" FontSize="20"/>
+            </Grid>
+        </Grid>
+
+        
+
+        
+
+        <TextBox x:Name="id" HorizontalAlignment="Left" Margin="300,240,0,0" TextWrapping="Wrap"
+Text="" VerticalAlignment="Top" FontSize="20" IsReadOnly="True"/>
+
+        <ComboBox x:Name="title" HorizontalAlignment="Left" Margin="420,240,0,0"
+VerticalAlignment="Top" Width="100" FontSize="20">
+            <ComboBoxItem Content="Mr"/>
+            <ComboBoxItem Content="Mrs"/>
+            <ComboBoxItem Content="Ms"/>
+            <ComboBoxItem Content="Miss"/>
+        </ComboBox>
+
+        <TextBox x:Name="firstName" HorizontalAlignment="Left" Margin="550,240,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="20"/>
+        <TextBox x:Name="lastName" HorizontalAlignment="Left" Margin="875,240,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,390,0,0" TextWrapping="Wrap"
+Text="Email" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="450,390,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,540,0,0" TextWrapping="Wrap"
+Text="Phone" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="450,540,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" FontSize="20"/>
+
+
+
+    </Grid>
+    
+</Page>
+<Page
+    x:Class="bCustomers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:bCustomers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="1813.097" Width="2509.027">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
+          Margin="0,-255,-283,0">
+        
+        <Grid Margin="10,20,10,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" HorizontalAlignment="Center" TextWrapping="Wrap"
+Text="Adventure Works Customers" VerticalAlignment="Top" FontSize="60"/>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="ID" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="Title" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="5" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="First Name" VerticalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="0" Grid.Column="7" HorizontalAlignment="Center"
+TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Center" FontSize="20"/>
+            </Grid>
+        </Grid>
+
+        
+
+        
+
+        <TextBox x:Name="id" HorizontalAlignment="Left" Margin="300,240,0,0" TextWrapping="Wrap"
+Text="" VerticalAlignment="Top" FontSize="20" IsReadOnly="True"/>
+
+        <ComboBox x:Name="title" HorizontalAlignment="Left" Margin="420,240,0,0"
+VerticalAlignment="Top" Width="100" FontSize="20">
+            <ComboBoxItem Content="Mr"/>
+            <ComboBoxItem Content="Mrs"/>
+            <ComboBoxItem Content="Ms"/>
+            <ComboBoxItem Content="Miss"/>
+        </ComboBox>
+
+        <TextBox x:Name="firstName" HorizontalAlignment="Left" Margin="550,240,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="20"/>
+        <TextBox x:Name="lastName" HorizontalAlignment="Left" Margin="875,240,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,390,0,0" TextWrapping="Wrap"
+Text="Email" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="450,390,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,540,0,0" TextWrapping="Wrap"
+Text="Phone" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="450,540,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" FontSize="20"/>
+
+
+
+    </Grid>
+    
+</Page>
+
